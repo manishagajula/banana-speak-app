@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  background-color: #7dd3fc;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  background-color: #1e3a8a;
+  color: #d9f99d;
+  margin: 0;
+  font-size: 3rem;
+  width: 100%;
+}
+
+textarea {
+  width: 50%;
+  height: 10vh;
+  display: block;
+  margin: 1rem auto;
+  padding: 1rem;
+  text-align: center;
+  background-color: #ecfccb;
+}
+
+#txt-input::placeholder {
+  font-size: 15px;
+  color: #1d4ed8;
+}
+
+#output {
+  border: 1px solid black;
+  height: 10vh;
+  width: 50%;
+  margin: 1rem auto;
+  padding: 2rem;
+  background-color: #ecfccb;
+}
+
+#txt-input {
+  align-items: center;
+}
+
+#btn-translate {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  color: #d9f99d;
+  background-color: #1e3a8a;
+}
+
+div {
+  text-align: center;
+}
+
+button {
+  margin: auto;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  border-radius: 0.3rem;
+  padding: 0.2rem;
+}
+
+img {
+  margin: auto;
+  width: 30rem;
+  height: 20rem;
+}
+
+.outputname {
+  font-size: 1.5rem;
+}
+
+footer {
+  background-color: #1e3a8a;
+  color: #d9f99d;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+}
