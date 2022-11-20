@@ -5,3 +5,5 @@ Built a fun translation app where in user can enter their text in English & the 
 ## Features
 
 Translates user input English text into banana language.
+
+![sample image](./images/images.png)
